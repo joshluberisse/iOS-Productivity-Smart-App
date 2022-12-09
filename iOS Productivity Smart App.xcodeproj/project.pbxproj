@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A79D53B929433018005DFEE3 /* iOS_Productivity_Smart_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79D53B829433018005DFEE3 /* iOS_Productivity_Smart_AppApp.swift */; };
+		A79D53BB29433018005DFEE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79D53BA29433018005DFEE3 /* ContentView.swift */; };
+		A79D53BD2943301B005DFEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79D53BC2943301B005DFEE3 /* Assets.xcassets */; };
+		A79D53C02943301B005DFEE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79D53BF2943301B005DFEE3 /* Preview Assets.xcassets */; };
+		A79D53C22943301B005DFEE3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79D53C12943301B005DFEE3 /* Persistence.swift */; };
+		A79D53C52943301B005DFEE3 /* iOS_Productivity_Smart_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A79D53C32943301B005DFEE3 /* iOS_Productivity_Smart_App.xcdatamodeld */; };
+		A79D53CF2943301C005DFEE3 /* iOS_Productivity_Smart_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79D53CE2943301C005DFEE3 /* iOS_Productivity_Smart_AppTests.swift */; };
+		A79D53D92943301C005DFEE3 /* iOS_Productivity_Smart_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79D53D82943301C005DFEE3 /* iOS_Productivity_Smart_AppUITests.swift */; };
+		A79D53DB2943301C005DFEE3 /* iOS_Productivity_Smart_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79D53DA2943301C005DFEE3 /* iOS_Productivity_Smart_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A79D53CB2943301C005DFEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79D53AD29433017005DFEE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79D53B429433017005DFEE3;
+			remoteInfo = "iOS Productivity Smart App";
+		};
+		A79D53D52943301C005DFEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79D53AD29433017005DFEE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79D53B429433017005DFEE3;
+			remoteInfo = "iOS Productivity Smart App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A79D53B529433017005DFEE3 /* iOS Productivity Smart App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Productivity Smart App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79D53B829433018005DFEE3 /* iOS_Productivity_Smart_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Productivity_Smart_AppApp.swift; sourceTree = "<group>"; };
+		A79D53BA29433018005DFEE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A79D53BC2943301B005DFEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A79D53BF2943301B005DFEE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A79D53C12943301B005DFEE3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A79D53C42943301B005DFEE3 /* iOS_Productivity_Smart_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Productivity_Smart_App.xcdatamodel; sourceTree = "<group>"; };
+		A79D53CA2943301C005DFEE3 /* iOS Productivity Smart AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Productivity Smart AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79D53CE2943301C005DFEE3 /* iOS_Productivity_Smart_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Productivity_Smart_AppTests.swift; sourceTree = "<group>"; };
+		A79D53D42943301C005DFEE3 /* iOS Productivity Smart AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Productivity Smart AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79D53D82943301C005DFEE3 /* iOS_Productivity_Smart_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Productivity_Smart_AppUITests.swift; sourceTree = "<group>"; };
+		A79D53DA2943301C005DFEE3 /* iOS_Productivity_Smart_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Productivity_Smart_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79D53B229433017005DFEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79D53C72943301C005DFEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79D53D12943301C005DFEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A79D53AC29433017005DFEE3 = {
+			isa = PBXGroup;
+			children = (
+				A79D53B729433017005DFEE3 /* iOS Productivity Smart App */,
+				A79D53CD2943301C005DFEE3 /* iOS Productivity Smart AppTests */,
+				A79D53D72943301C005DFEE3 /* iOS Productivity Smart AppUITests */,
+				A79D53B629433017005DFEE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A79D53B629433017005DFEE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79D53B529433017005DFEE3 /* iOS Productivity Smart App.app */,
+				A79D53CA2943301C005DFEE3 /* iOS Productivity Smart AppTests.xctest */,
+				A79D53D42943301C005DFEE3 /* iOS Productivity Smart AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A79D53B729433017005DFEE3 /* iOS Productivity Smart App */ = {
+			isa = PBXGroup;
+			children = (
+				A79D53B829433018005DFEE3 /* iOS_Productivity_Smart_AppApp.swift */,
+				A79D53BA29433018005DFEE3 /* ContentView.swift */,
+				A79D53BC2943301B005DFEE3 /* Assets.xcassets */,
+				A79D53C12943301B005DFEE3 /* Persistence.swift */,
+				A79D53C32943301B005DFEE3 /* iOS_Productivity_Smart_App.xcdatamodeld */,
+				A79D53BE2943301B005DFEE3 /* Preview Content */,
+			);
+			path = "iOS Productivity Smart App";
+			sourceTree = "<group>";
+		};
+		A79D53BE2943301B005DFEE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A79D53BF2943301B005DFEE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A79D53CD2943301C005DFEE3 /* iOS Productivity Smart AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A79D53CE2943301C005DFEE3 /* iOS_Productivity_Smart_AppTests.swift */,
+			);
+			path = "iOS Productivity Smart AppTests";
+			sourceTree = "<group>";
+		};
+		A79D53D72943301C005DFEE3 /* iOS Productivity Smart AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A79D53D82943301C005DFEE3 /* iOS_Productivity_Smart_AppUITests.swift */,
+				A79D53DA2943301C005DFEE3 /* iOS_Productivity_Smart_AppUITestsLaunchTests.swift */,
+			);
+			path = "iOS Productivity Smart AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79D53B429433017005DFEE3 /* iOS Productivity Smart App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79D53DE2943301C005DFEE3 /* Build configuration list for PBXNativeTarget "iOS Productivity Smart App" */;
+			buildPhases = (
+				A79D53B129433017005DFEE3 /* Sources */,
+				A79D53B229433017005DFEE3 /* Frameworks */,
+				A79D53B329433017005DFEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Productivity Smart App";
+			productName = "iOS Productivity Smart App";
+			productReference = A79D53B529433017005DFEE3 /* iOS Productivity Smart App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A79D53C92943301C005DFEE3 /* iOS Productivity Smart AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79D53E12943301C005DFEE3 /* Build configuration list for PBXNativeTarget "iOS Productivity Smart AppTests" */;
+			buildPhases = (
+				A79D53C62943301C005DFEE3 /* Sources */,
+				A79D53C72943301C005DFEE3 /* Frameworks */,
+				A79D53C82943301C005DFEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79D53CC2943301C005DFEE3 /* PBXTargetDependency */,
+			);
+			name = "iOS Productivity Smart AppTests";
+			productName = "iOS Productivity Smart AppTests";
+			productReference = A79D53CA2943301C005DFEE3 /* iOS Productivity Smart AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A79D53D32943301C005DFEE3 /* iOS Productivity Smart AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79D53E42943301C005DFEE3 /* Build configuration list for PBXNativeTarget "iOS Productivity Smart AppUITests" */;
+			buildPhases = (
+				A79D53D02943301C005DFEE3 /* Sources */,
+				A79D53D12943301C005DFEE3 /* Frameworks */,
+				A79D53D22943301C005DFEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79D53D62943301C005DFEE3 /* PBXTargetDependency */,
+			);
+			name = "iOS Productivity Smart AppUITests";
+			productName = "iOS Productivity Smart AppUITests";
+			productReference = A79D53D42943301C005DFEE3 /* iOS Productivity Smart AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A79D53AD29433017005DFEE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A79D53B429433017005DFEE3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A79D53C92943301C005DFEE3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A79D53B429433017005DFEE3;
+					};
+					A79D53D32943301C005DFEE3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A79D53B429433017005DFEE3;
+					};
+				};
+			};
+			buildConfigurationList = A79D53B029433017005DFEE3 /* Build configuration list for PBXProject "iOS Productivity Smart App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A79D53AC29433017005DFEE3;
+			productRefGroup = A79D53B629433017005DFEE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79D53B429433017005DFEE3 /* iOS Productivity Smart App */,
+				A79D53C92943301C005DFEE3 /* iOS Productivity Smart AppTests */,
+				A79D53D32943301C005DFEE3 /* iOS Productivity Smart AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79D53B329433017005DFEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79D53C02943301B005DFEE3 /* Preview Assets.xcassets in Resources */,
+				A79D53BD2943301B005DFEE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79D53C82943301C005DFEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79D53D22943301C005DFEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79D53B129433017005DFEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79D53C22943301B005DFEE3 /* Persistence.swift in Sources */,
+				A79D53C52943301B005DFEE3 /* iOS_Productivity_Smart_App.xcdatamodeld in Sources */,
+				A79D53BB29433018005DFEE3 /* ContentView.swift in Sources */,
+				A79D53B929433018005DFEE3 /* iOS_Productivity_Smart_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79D53C62943301C005DFEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79D53CF2943301C005DFEE3 /* iOS_Productivity_Smart_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79D53D02943301C005DFEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79D53DB2943301C005DFEE3 /* iOS_Productivity_Smart_AppUITestsLaunchTests.swift in Sources */,
+				A79D53D92943301C005DFEE3 /* iOS_Productivity_Smart_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A79D53CC2943301C005DFEE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79D53B429433017005DFEE3 /* iOS Productivity Smart App */;
+			targetProxy = A79D53CB2943301C005DFEE3 /* PBXContainerItemProxy */;
+		};
+		A79D53D62943301C005DFEE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79D53B429433017005DFEE3 /* iOS Productivity Smart App */;
+			targetProxy = A79D53D52943301C005DFEE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A79D53DC2943301C005DFEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A79D53DD2943301C005DFEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A79D53DF2943301C005DFEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Productivity Smart App/Preview Content\"";
+				DEVELOPMENT_TEAM = QA9G64QQ85;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NeuromophSystems.iOS-Productivity-Smart-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A79D53E02943301C005DFEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Productivity Smart App/Preview Content\"";
+				DEVELOPMENT_TEAM = QA9G64QQ85;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NeuromophSystems.iOS-Productivity-Smart-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A79D53E22943301C005DFEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QA9G64QQ85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NeuromophSystems.iOS-Productivity-Smart-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Productivity Smart App.app/iOS Productivity Smart App";
+			};
+			name = Debug;
+		};
+		A79D53E32943301C005DFEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QA9G64QQ85;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NeuromophSystems.iOS-Productivity-Smart-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Productivity Smart App.app/iOS Productivity Smart App";
+			};
+			name = Release;
+		};
+		A79D53E52943301C005DFEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QA9G64QQ85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NeuromophSystems.iOS-Productivity-Smart-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Productivity Smart App";
+			};
+			name = Debug;
+		};
+		A79D53E62943301C005DFEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QA9G64QQ85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NeuromophSystems.iOS-Productivity-Smart-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Productivity Smart App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79D53B029433017005DFEE3 /* Build configuration list for PBXProject "iOS Productivity Smart App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79D53DC2943301C005DFEE3 /* Debug */,
+				A79D53DD2943301C005DFEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79D53DE2943301C005DFEE3 /* Build configuration list for PBXNativeTarget "iOS Productivity Smart App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79D53DF2943301C005DFEE3 /* Debug */,
+				A79D53E02943301C005DFEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79D53E12943301C005DFEE3 /* Build configuration list for PBXNativeTarget "iOS Productivity Smart AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79D53E22943301C005DFEE3 /* Debug */,
+				A79D53E32943301C005DFEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79D53E42943301C005DFEE3 /* Build configuration list for PBXNativeTarget "iOS Productivity Smart AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79D53E52943301C005DFEE3 /* Debug */,
+				A79D53E62943301C005DFEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A79D53C32943301B005DFEE3 /* iOS_Productivity_Smart_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A79D53C42943301B005DFEE3 /* iOS_Productivity_Smart_App.xcdatamodel */,
+			);
+			currentVersion = A79D53C42943301B005DFEE3 /* iOS_Productivity_Smart_App.xcdatamodel */;
+			path = iOS_Productivity_Smart_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A79D53AD29433017005DFEE3 /* Project object */;
+}
