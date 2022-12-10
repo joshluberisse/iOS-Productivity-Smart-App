@@ -1,9 +1,3 @@
-//
-//  iOS_Productivity_Smart_AppApp.swift
-//  iOS Productivity Smart App
-//
-//  Created by Cold Heat on 12/9/22.
-//
 
 import SwiftUI
 import UIKit
